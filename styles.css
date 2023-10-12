@@ -1,0 +1,278 @@
+/* header part */
+*{
+    font-family: 'Croissant One', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+margin: 0px;
+padding: 0px;
+
+}
+.logo{
+    height: 130px;
+    width: 120px;
+    margin-top:10px ;
+    margin-left:80px ;
+}
+.headerclass{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-links{
+    margin-right: 60px;
+    display: flex;
+    list-style-type: none;
+    
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 20px;
+    
+     
+}
+.links:hover{
+    color: red;
+}
+
+
+/* home section */
+
+#home{
+    margin-top: 100px;
+}
+.title{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.titleh1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.secondname{
+    color: orange;
+}
+.download{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 30px 0px;
+    border-radius: 5px;
+    font-weight: bold ;
+}
+.images{
+    position: absolute;
+    width: 45%;
+    height: 80%;
+    bottom: 0px;
+    right: 30px;
+}
+.images img{
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+.images:hover #shape{
+    bottom: 50px;
+}
+.images:hover #girl{
+    left: 40%;
+}
+
+/* ABOUT SECTION */
+
+#about{
+    margin-top: 200px;
+}
+.heading{
+    text-align: center;
+}
+.heading h3{
+    color: green;
+}
+.about-image{
+    margin-left: 50px;
+}
+.about-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 30px;
+    gap: 2rem;
+}
+/* .about-details span{
+    margin-left: 10px;
+    
+} */
+.information{
+    margin-top: 20px;
+}
+.infobox{
+    margin-bottom: 10px;
+}
+.infobox span{
+    margin-left: 5px;
+}
+.about-image img{
+    width: 70% ;
+   
+}
+.about-details{
+    font-size: 18px;
+    text-align: justify;
+}
+.skillheading{
+    text-align: center;
+    margin-top: 70px;
+}
+.skillheading h3{
+    color: orange;
+}
+/* ---------------------------------------------------------------------------------- */
+.skill-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.b-html{
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+.s-html{
+    width: 90%;
+    height: 5px;
+    background-color: orange;
+}
+.b-css{
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+.s-css{
+    width: 75%;
+    height: 5px;
+    background-color: orange;
+}
+.b-js{
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+.s-js{
+    width: 60%;
+    height: 5px;
+    background-color:orange;
+}
+.b-rct{
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+.s-rct{
+    width: 50%;
+    height: 5px;
+    background-color:orange;
+}
+.percentage{
+    margin-top: 70px;
+    margin-left: 40px;
+    padding-left: 40px;
+
+}
+.bar{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0px;
+    margin-bottom: 1rem;
+    position: relative; */
+
+    display: flex;
+    padding: 1rem 0px;
+    margin-bottom: 1rem;
+    position: relative;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: center;
+}
+.contact-div{
+    text-align: center;
+    margin-top: 70px;
+}
+.contact-div h3{
+    color: orange;
+
+}
+.contact-body{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    align-items: center;
+}
+
+.contact-footer{
+    margin-top: 70px;
+    padding-bottom: 50px;
+    font-size: larger;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.icon i{
+    font-size: 30px;
+    color: black;
+    margin-left: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.icon:hover {
+    background-image: linear-gradient(to bottom right,yellow,red);
+    animation: shake 1s;
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    25%{
+        transform: rotate(60deg);
+    }
+    50%{
+        transform: rotate(90deg);
+    }
+    75%{
+        transform: rotate(180deg);
+    }
+}
+.arrow{
+    height: 50px;
+    width: 50px;
+    float: right;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right,yellow, red);
+    margin: 0px 10px 50px 0px;
+}
+
+
